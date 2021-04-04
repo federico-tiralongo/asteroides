@@ -1,0 +1,32 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "API REST Demostrativa creada para mi videotutorial de Youtube.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.12.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josevladimir/API-REST-Youtube-2018.git"
+  },
+  "bugs": {
+    "url": "https://github.com/josevladimir/API-REST-Youtube-2018/issues"
+  },
+  "homepage": "https://github.com/josevladimir/API-REST-Youtube-2018#readme"
+}
